@@ -1,0 +1,251 @@
+/**
+* Author : Ameur Elmehdi
+  email : mehdiameur97@gmail.com
+
+  student computer engineering-Ensa El hociema
+
+*/
+
+.body
+{
+	text-align: center;
+	width: 100%;
+}
+header h1
+{
+	margin-left: 40%;
+}
+/*******************button*/
+.buttons
+{
+	margin-left: 45%;
+}
+
+.button_restart
+{
+	
+}
+
+.show
+{
+	
+}
+
+.hide
+{
+	display: none;
+}
+
+/************************road */
+.road
+{
+	position: relative;
+	background-color: black;
+	height: 250px;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+}
+
+.car
+{ /*180 px is the top & 75%;*/
+	position: absolute;
+	left: 50px;
+	
+}
+
+.race_bar
+{
+	position: absolute;
+	left: 80px;
+}
+
+.race_bar_finish
+{
+	position: absolute;
+	left: 4000px;
+}
+
+ .white_police
+{
+	color: white;
+	background-color: white;
+	width: 7%;
+	display: inline-block;
+	margin-left: 2%;
+	float: right;
+	
+	
+}
+
+.white_police_content_1
+{
+
+	width: 100%;
+	
+	position: absolute;
+	top: 48%;
+}
+
+
+
+
+.white_police_content_2
+{
+
+	width: 100%;
+	right: 2%;
+	position: absolute;
+	top: 48%;
+}
+.white_police_content_3
+{
+
+	width: 100%;
+	right: 4%;
+	position: absolute;
+	top: 48%;
+}
+.white_police_content_4
+{
+
+	width: 100%;
+	right: 6%;
+	position: absolute;
+	top: 48%;
+}
+
+.white_police_content_5
+{
+
+	width: 100%;
+	right: 8%;
+	position: absolute;
+	top: 48%;
+}
+
+.white_police_content_6
+{
+
+	width: 100%;
+	
+	position: absolute;
+	top: 48%;
+}
+
+/*******************console**************/
+.console
+{
+	position: relative;
+	margin-left: 40%;
+
+}
+
+.console_up
+{
+	margin-left: 10%;
+	
+
+}
+
+/***************Start light*/
+.start_light 
+{
+	background-color: black;
+}
+
+.red_light
+{
+	color: red;
+	background-color: red;
+	opacity: 0.5;
+
+}
+
+.orange_light
+{
+	color: orange;
+	background-color: orange;
+	opacity: 0.5;
+	
+}
+
+.green_light
+{
+	color: #00FF00;
+	background-color: #00FF00;
+	opacity: 0.5;
+	
+}
+
+/*********WIn Or lose **i put win in timer*/
+.you_win, .you_lose, .score_last
+{
+	margin-left: 45%;
+}  
+
+
+
+/***obstacle****************/
+
+.hole1
+{
+	position: absolute;
+	left: 800px;
+	top: 10px;
+}
+
+.hole2
+{
+	position: absolute;
+	left: 900px;
+
+}
+.hole3
+{
+	position: absolute;
+	left: 400px;
+	top: 80px;
+
+}
+.hole4
+{
+	position: absolute;
+	left: 1000px;
+
+}
+.hole5
+{
+	position: absolute;
+	left: 400px;
+	top: 50px;
+
+}
+
+.bullet_hole
+{
+	position: absolute;
+	left: 1000px;
+	top: 100px;
+}
+
+/*** gift score/**/
+.straw1
+{
+	position: absolute;
+	left: 700px;
+	top: 180px;
+}
+
+.straw2
+{
+	position: absolute;
+	left: 1000px;
+	top: 40px;
+}
+.straw3
+{
+	position: absolute;
+	left: 200px;
+	top: 10px;
+}

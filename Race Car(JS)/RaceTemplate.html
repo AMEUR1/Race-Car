@@ -1,0 +1,161 @@
+<!-- 
+* Author : Ameur Elmehdi
+  email : mehdiameur97@gmail.com
+
+  student computer engineering-Ensa El hociema
+
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Race Car V 1.0
+	</title>
+	<script src="jquery-lib.js"></script>
+	<link rel="stylesheet" type="text/css" href="raceStyle.css">
+</head>
+
+
+<body>
+<header>
+	<h1>Welcome To Race Car </h1>
+
+</header>
+<section class="buttons">
+	<button class="button_play">Click To Play</button>
+	<button class="button_pause hide">pause</button>
+	<button class="button_unpaused hide">unpaused</button>
+	<button class="button_restart hide">restart</button>
+	<button class="finish_the_game">finish</button>
+	<button class="show_the_game hide">Try Again</button>
+</section>
+<section>
+	<b>Score :</b>
+	<input type="button"  disabled class="score" value="000000">
+	<table  border="1" class="start_light" style="float: right;">
+		<td class="red_light">Red</td>
+		<td class="orange_light">Ora</td>
+		<td class="green_light">Gee</td>
+	</table>
+</section>
+
+	<hr>
+	<div class="road ">
+		
+		<img class="race_bar" src="img/Race-bar.png" width="50px" >
+		<img class="race_bar_finish" src="img/Race-bar.png" width="50px" >
+		
+		
+		<div class="white_police_content_1  ">
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		
+		</div>
+	
+		
+		<div class="white_police_content_2 hide">
+		<div class="white_police" >p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		
+		</div>
+
+		<div class="white_police_content_3 hide">
+		<div class="white_police" >p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		
+		</div>
+
+		<div class="white_police_content_4 hide ">
+		<div class="white_police" >p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		</div>
+
+		<div class="white_police_content_5 hide ">
+		<div class="white_police" >p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		<div class="white_police">p</div>
+		
+		<div class="white_police">p</div>
+		
+		</div>
+
+		<div class="white_police_content_6 hide ">
+	
+		<div class="white_police" style="width: 5%; float: right;">p</div>
+		</div>
+		<img class="black_hole hole1" src="img/black-hole.png" width="50px">
+		<img class="black_hole hole2" src="img/black-hole.png" width="50px">
+		<img class="black_hole hole3" src="img/black-hole.png" width="50px">
+		<img class="black_hole hole4" src="img/black-hole.png" width="50px">
+		<img class="black_hole hole5" src="img/black-hole.png" width="50px">
+		<img class="straw straw1" src="img/straw.png" width="50px">
+		<img class="straw straw2" src="img/straw.png" width="50px">
+		<img class="straw straw3" src="img/straw.png" width="50px">
+		<img  class="car" src="img/yellow_car.png" width="125px" style="float: left;">
+	</div>
+	<hr>
+</section>
+<section class="console">
+	<button class="console_up">Up</button><br>
+	<button class="console_back">Back</button>
+	<button class="console_down">Down</button>
+	<button class="console_forward">Forward</button>
+	
+</section>
+
+<section class="winOrLose " >
+	<h1 class="you_win hide">You Win</h1>
+	<h1 class="you_lose hide ">You Lose</h1>
+	<h1 class="score_last "></h1>
+ </section>
+
+<script type="text/javascript" src="RaceScript.js">
+	"use strict";
+
+</script>
+</body>
+</html>
